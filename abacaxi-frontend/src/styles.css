@@ -2,20 +2,23 @@
 
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
-  background: #fdf8e6;
-  color: #333;
+    background-color: #A52B64;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
+/* Cabeçalho */
 header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 16px;
   padding: 12px 24px;
-  background: #2e7d32;
-  color: #fff;
+    background-color: #831F4D;
+   color:  #FFFFFF;
 }
+
 header h1 { font-size: 1.3rem; margin: 0; }
 header nav { display: flex; gap: 8px; flex: 1; }
 header nav button { background: transparent; border: 1px solid #fff; }
